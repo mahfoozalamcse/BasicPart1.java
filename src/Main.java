@@ -1,3 +1,4 @@
+import javax.management.relation.Relation;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -178,21 +179,82 @@ public class Main {
 
         // data type different a+b/c*d each have different type data than promote accordingly
 
-        char a =  'a';
-        char c = 'c';
-        System.out.println(c-a);  // output 2
-
-        int e = 12;
-        float f = 30.1f;
-        double g = 30;
-        long h = 23;
-
-        double ans = e + f + g + h;
-        System.out.println(ans);
+//        char a =  'a';
+//        char c = 'c';
+//        System.out.println(c-a);  // output 2
+//
+//        int e = 12;
+//        float f = 30.1f;
+//        double g = 30;
+//        long h = 23;
+//
+//        double ans = e + f + g + h;
+//        System.out.println(ans);
 
 
 
         // 15. how java code run understand by code
+
+
+//        //16. Operator in java
+//        sum = a + b; here + is operator, a, b => operend
+//
+//        // type of Operator
+//        Arithmetic
+//        Relation
+//        Logical
+//        Bitwise
+//        Assignment
+
+        // 1. Arithmetic
+        // Binary => +, -, *, / , % , Unary => ++, --
+
+
+//       int a = 10;
+//       int b = 2;
+//        System.out.println(a+b);
+//        System.out.println(a-b);
+//        System.out.println(a/b);
+//        System.out.println(a%b);
+//        System.out.println(a*b);
+//        System.out.println(++a); // pre Increment value change value use
+//        System.out.println(--a); // pre Decrement value change value use
+//        System.out.println(a++); // post Increment value use value change
+//        System.out.println(a);
+//        System.out.println(a--); // post Decrement value use value change
+//        System.out.println(a);
+
+        // 2. Relational Operator
+       // == => equal, != not equal, > greater, < less, >=, <=
+
+//        int a = 12;
+//        int b = 5;
+//        System.out.println(a==b);
+//        System.out.println(a!=b);
+//        System.out.println(a>=b);
+//        System.out.println(a<=b);
+//        System.out.println(a>b);
+//        System.out.println(a<b);
+
+        // 3. Logical Operator
+        // && logical and, || logical or, ! logical not
+
+//        System.out.println((3>2) && (3>1));
+//        System.out.println((3<1) || (4>1));
+//        System.out.println(!(3>2));
+
+        // 4. Assignment Operator
+        // =, +=, -=, *=, /=
+
+        int a = 10;
+        int b = 23;
+        System.out.println(a = b);
+        System.out.println(a+=10); // speed fast
+        System.out.println(a-=20);
+        System.out.println(a/=10);
+        System.out.println(a*= 10);
+
+
 
 
         }
